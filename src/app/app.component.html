@@ -1,0 +1,70 @@
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-3">Github Strike</h1>
+    <p class="lead">The 14 days long competition, in which, participants compete for the top places, sorted by their contributions</p>
+  </div>
+</div>
+<div class="container">
+  <div class="alert alert-info" role="alert">
+    <strong>Update: </strong> Last update was on <i>7 Feb 2017</i>
+  </div>
+
+  <!-- Boxes -->
+  <div class="row">
+    <div class="col-md-4 col-sm-12 col-xs-12">
+      <div class="info-box">
+        <span class="info-box-icon bg-blue"><i class="fa fa-facebook"></i></span>
+
+        <div class="info-box-content">
+          <span class="info-box-text">Have interest</span>
+          <span class="info-box-number">28</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="clearfix visible-sm-block"></div>
+
+    <div class="col-md-4 col-sm-12 col-xs-12">
+      <div class="info-box">
+        <span class="info-box-icon bg-green"><i class="fa fa-users"></i></span>
+
+        <div class="info-box-content">
+          <span class="info-box-text">Participants</span>
+          <span class="info-box-number">{{ participants.length }}</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4 col-sm-12 col-xs-12">
+      <div class="info-box">
+        <span class="info-box-icon bg-yellow"><i class="fa fa-calendar"></i></span>
+
+        <div class="info-box-content">
+          <span class="info-box-text">Deadline</span>
+          <span class="info-box-number">19 February</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- List of contributors -->
+  <h3>Participants</h3>
+  <table class="table table-bordered table-striped">
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Name</th>
+        <th>Username</th>
+        <th>Total Contribution</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let part of participants;let i = index; ">
+        <th scope="row">{{ i + 1 }}</th>
+        <td>{{ part.name }}</td>
+        <td><a href="https://github.com/{{ part.username }}">@{{ part.username }}</a></td>
+        <td>{{ part.total_cont}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
