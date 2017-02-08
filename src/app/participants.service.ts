@@ -6,76 +6,76 @@ import 'rxjs/add/operator/map';
 import * as $ from 'jquery';
 
 const participants = [
-    {
-        "name": "Abdalmajid Abdalla",
-        "username": "majidsd",
-        "total_cont": 0
-    },
-    {
-        "name": "Amr Abd Alkrim Hassan",
-        "username": "wizmoori",
-        "total_cont": 2
-    },
-    {
-        "name": "Ameenah",
-        "username": "ameenah",
-        "total_cont": 2
-    },
-    {
-        "name": "emanjodoo",
-        "username": "emanjodoo",
-        "total_cont": 0
-    },
-    {
-        "name": "Eman saeed",
-        "username": "emansaeed",
-        "total_cont": 0
-    },
-    {
-        "name": "Ibrahim Omer",
-        "username": "ibrahimomer",
-        "total_cont": 3
-    },
-    {
-        "name": "Majid CJ",
-        "username": "majid-cj",
-        "total_cont": 0
-    },
-    {
-        "name": "mohannad waheed",
-        "username": "mohannadprogrammer",
-        "total_cont": 14
-    },
-    {
-        "name": "Montaser",
-        "username": "montaz7",
-        "total_cont": 0
-    },
-    {
-        "name": "Obay Hamed",
-        "username": "obayhamed",
-        "total_cont": 0
-    },
-    {
-        "name": "ProjectDeveloper323",
-        "username": "ProjectDeveloper323",
-        "total_cont": 0
-    },
-    {
-        "name": "RehamElhadi",
-        "username": "RehamElhadi",
-        "total_cont": 1
-    },
-    {
-        "name": "Trteel",
-        "username": "Tarteel",
-        "total_cont": 0
-    },
-    {
-        "name": "wiamosman",
-        "username": "wiamosman",
-        "total_cont": 0
-    }
+  {
+    'total_cont': 0,
+    'name': 'Abdalmajid Abdalla',
+    'username': 'majidsd'
+  },
+  {
+    'total_cont': 2,
+    'name': 'Amr Abd Alkrim Hassan',
+    'username': 'wizmoori'
+  },
+  {
+    'total_cont': 2,
+    'name': 'Ameenah',
+    'username': 'ameenah'
+  },
+  {
+    'total_cont': 0,
+    'name': 'emanjodoo',
+    'username': 'emanjodoo'
+  },
+  {
+    'total_cont': 0,
+    'name': 'Eman saeed',
+    'username': 'emansaeed'
+  },
+  {
+    'total_cont': 5,
+    'name': 'Ibrahim Omer',
+    'username': 'ibrahimomer'
+  },
+  {
+    'total_cont': 0,
+    'name': 'Majid CJ',
+    'username': 'majid-cj'
+  },
+  {
+    'total_cont': 15,
+    'name': 'mohannad waheed',
+    'username': 'mohannadprogrammer'
+  },
+  {
+    'total_cont': 0,
+    'name': 'Montaser',
+    'username': 'montaz7'
+  },
+  {
+    'total_cont': 0,
+    'name': 'Obay Hamed',
+    'username': 'obayhamed'
+  },
+  {
+    'total_cont': 0,
+    'name': 'ProjectDeveloper323',
+    'username': 'ProjectDeveloper323'
+  },
+  {
+    'total_cont': 1,
+    'name': 'RehamElhadi',
+    'username': 'RehamElhadi'
+  },
+  {
+    'total_cont': 0,
+    'name': 'Trteel',
+    'username': 'Tarteel'
+  },
+  {
+    'total_cont': 0,
+    'name': 'wiamosman',
+    'username': 'wiamosman'
+  }
 ];
 
 
