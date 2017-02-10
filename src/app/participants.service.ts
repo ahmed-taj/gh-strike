@@ -7,74 +7,74 @@ import * as $ from 'jquery';
 
 const participants = [
     {
-        "name": "Abdalmajid Abdalla",
+        "total_cont": 0,
         "username": "majidsd",
-        "total_cont": 0
+        "name": "Abdalmajid Abdalla"
     },
     {
-        "name": "Amr Abd Alkrim Hassan",
+        "total_cont": 2,
         "username": "wizmoori",
-        "total_cont": 2
+        "name": "Amr Abd Alkrim Hassan"
     },
     {
-        "name": "Ameenah",
+        "total_cont": 2,
         "username": "ameenah",
-        "total_cont": 2
+        "name": "Ameenah"
     },
     {
-        "name": "emanjodoo",
+        "total_cont": 0,
         "username": "emanjodoo",
-        "total_cont": 0
+        "name": "emanjodoo"
     },
     {
-        "name": "Eman saeed",
+        "total_cont": 0,
         "username": "emansaeed",
-        "total_cont": 0
+        "name": "Eman saeed"
     },
     {
-        "name": "Ibrahim Omer",
+        "total_cont": 8,
         "username": "ibrahimomer",
-        "total_cont": 8
+        "name": "Ibrahim Omer"
     },
     {
-        "name": "Majid CJ",
+        "total_cont": 3,
         "username": "majid-cj",
-        "total_cont": 3
+        "name": "Majid CJ"
     },
     {
-        "name": "mohannad waheed",
+        "total_cont": 19,
         "username": "mohannadprogrammer",
-        "total_cont": 16
+        "name": "mohannad waheed"
     },
     {
-        "name": "Montaser",
+        "total_cont": 0,
         "username": "montaz7",
-        "total_cont": 0
+        "name": "Montaser"
     },
     {
-        "name": "Obay Hamed",
+        "total_cont": 3,
         "username": "obayhamed",
-        "total_cont": 0
+        "name": "Obay Hamed"
     },
     {
-        "name": "ProjectDeveloper323",
+        "total_cont": 0,
         "username": "ProjectDeveloper323",
-        "total_cont": 0
+        "name": "ProjectDeveloper323"
     },
     {
-        "name": "RehamElhadi",
+        "total_cont": 1,
         "username": "RehamElhadi",
-        "total_cont": 1
+        "name": "RehamElhadi"
     },
     {
-        "name": "Trteel",
+        "total_cont": 0,
         "username": "Tarteel",
-        "total_cont": 0
+        "name": "Trteel"
     },
     {
-        "name": "wiamosman",
+        "total_cont": 0,
         "username": "wiamosman",
-        "total_cont": 0
+        "name": "wiamosman"
     }
 ];
 
