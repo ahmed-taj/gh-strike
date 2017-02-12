@@ -7,74 +7,74 @@ import * as $ from 'jquery';
 
 const participants = [
     {
+        "name": "Abdalmajid Abdalla",
+        "total_cont": 7,
+        "username": "majidsd"
+    },
+    {
+        "name": "Amr Abd Alkrim Hassan",
+        "total_cont": 28,
+        "username": "wizmoori"
+    },
+    {
+        "name": "Ameenah",
+        "total_cont": 7,
+        "username": "ameenah"
+    },
+    {
+        "name": "emanjodoo",
         "total_cont": 0,
-        "username": "majidsd",
-        "name": "Abdalmajid Abdalla"
+        "username": "emanjodoo"
     },
     {
-        "total_cont": 2,
-        "username": "wizmoori",
-        "name": "Amr Abd Alkrim Hassan"
-    },
-    {
-        "total_cont": 2,
-        "username": "ameenah",
-        "name": "Ameenah"
-    },
-    {
+        "name": "Eman saeed",
         "total_cont": 0,
-        "username": "emanjodoo",
-        "name": "emanjodoo"
+        "username": "emansaeed"
     },
     {
-        "total_cont": 0,
-        "username": "emansaeed",
-        "name": "Eman saeed"
+        "name": "Ibrahim Omer",
+        "total_cont": 10,
+        "username": "ibrahimomer"
     },
     {
-        "total_cont": 8,
-        "username": "ibrahimomer",
-        "name": "Ibrahim Omer"
-    },
-    {
+        "name": "Majid CJ",
         "total_cont": 3,
-        "username": "majid-cj",
-        "name": "Majid CJ"
+        "username": "majid-cj"
     },
     {
-        "total_cont": 19,
-        "username": "mohannadprogrammer",
-        "name": "mohannad waheed"
+        "name": "mohannad waheed",
+        "total_cont": 25,
+        "username": "mohannadprogrammer"
     },
     {
+        "name": "Montaser",
         "total_cont": 0,
-        "username": "montaz7",
-        "name": "Montaser"
+        "username": "montaz7"
     },
     {
+        "name": "Obay Hamed",
         "total_cont": 3,
-        "username": "obayhamed",
-        "name": "Obay Hamed"
+        "username": "obayhamed"
     },
     {
+        "name": "ProjectDeveloper323",
         "total_cont": 0,
-        "username": "ProjectDeveloper323",
-        "name": "ProjectDeveloper323"
+        "username": "ProjectDeveloper323"
     },
     {
+        "name": "RehamElhadi",
         "total_cont": 1,
-        "username": "RehamElhadi",
-        "name": "RehamElhadi"
+        "username": "RehamElhadi"
     },
     {
+        "name": "Trteel",
         "total_cont": 0,
-        "username": "Tarteel",
-        "name": "Trteel"
+        "username": "Tarteel"
     },
     {
+        "name": "wiamosman",
         "total_cont": 0,
-        "username": "wiamosman",
-        "name": "wiamosman"
+        "username": "wiamosman"
     }
 ];
 
