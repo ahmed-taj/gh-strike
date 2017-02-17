@@ -2,3 +2,11 @@
   background-image: url('assets/bg.png');
   color:white;
 }
+
+.title{
+  padding: 40px 10px 20px;
+}
+.footer{
+  padding: 40px 10px 20px;
+  margin: auto;
+}

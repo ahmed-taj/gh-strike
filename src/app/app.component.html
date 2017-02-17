@@ -6,20 +6,20 @@
 </div>
 <div class="container">
   <div class="alert alert-info" role="alert">
-    <strong>Note: </strong> Last update was on <i>15 Feb 2017</i>
+    <strong>Note: </strong> Last update on <i>17 Feb 2017</i>
   </div>
 
   <!-- Boxes -->
   <div class="row">
     <div class="col-md-4 col-sm-12 col-xs-12">
-      <div class="info-box">
+      <a class="info-box" style="color:black;" href="https://www.facebook.com/events/1001064483359296/">
         <span class="info-box-icon bg-blue"><i class="fa fa-facebook"></i></span>
 
         <div class="info-box-content">
           <span class="info-box-text">Have interest</span>
           <span class="info-box-number">28</span>
         </div>
-      </div>
+      </a>
     </div>
 
     <div class="clearfix visible-sm-block"></div>
@@ -48,23 +48,44 @@
   </div>
 
   <!-- List of contributors -->
-  <h3 class="center"><span class="fa fa-trophy"></span> Leaderboard</h3>
-  <table class="table table-bordered table-striped">
-    <thead>
-      <tr>
-        <th>#</th>
-        <th>Name</th>
-        <th>Username</th>
-        <th>Total Contribution</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr *ngFor="let part of participants;let i = index; ">
-        <th scope="row">{{ i + 1 }}</th>
-        <td>{{ part.name }}</td>
-        <td><a href="https://github.com/{{ part.username }}">@{{ part.username }}</a></td>
-        <td>{{ part.total_cont}}</td>
-      </tr>
-    </tbody>
-  </table>
+  <div class="title row">
+    <h3><span class="fa fa-trophy"></span> Leaderboard</h3>
+  </div>
+  <div class="row">
+    <table class="table table-bordered table-striped">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Name</th>
+          <th>Username</th>
+          <th>Total Contribution</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let part of participants;let i = index; ">
+          <th scope="row">{{ i + 1 }}</th>
+          <td>{{ part.name }}</td>
+          <td><a href="https://github.com/{{ part.username }}">@{{ part.username }}</a></td>
+          <td>{{ part.total_cont}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <!-- List of topics -->
+  <div class="title row">
+    <h3><span class="fa fa-book"></span> Topics</h3>
+  </div>
+  <div class="row">
+    <table class="table table-bordered table-striped">
+      <tbody>
+        <tr *ngFor="let link of links">
+          <td>
+            <a href="{{link.href}}">{{ link.title }}</a></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="row">
+    <footer class="footer">&copy; 2017 <a href="https://github.com/ahmed-taj">Ahmed Taj elsir</a> </footer>
+  </div>
 </div>
