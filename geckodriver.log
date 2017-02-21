@@ -1,0 +1,8 @@
+1487594762770	geckodriver	INFO	Listening on 127.0.0.1:44650
+1487594763841	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.Wswq1kY7JKee
+1487594763842	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1487594763859	geckodriver::marionette	INFO	Connecting to Marionette on localhost:33623
+1487594768702	Marionette	INFO	Listening on port 33623
+1487594773243	Marionette	WARN	Using deprecated data structure for setting timeouts
+[Child 8538] ###!!! ABORT: Aborting on channel error.: file /build/firefox-z5GTBX/firefox-51.0.1+build2/ipc/glue/MessageChannel.cpp, line 2056
+[Child 8538] ###!!! ABORT: Aborting on channel error.: file /build/firefox-z5GTBX/firefox-51.0.1+build2/ipc/glue/MessageChannel.cpp, line 2056
